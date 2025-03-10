@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Lexend+Deca:wght@100..900&family=Mochiy+Pop+P+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Racing+Sans+One&family=Russo+One&family=Varela+Round&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Lexend+Deca:wght@100..900&family=Mochiy+Pop+P+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Racing+Sans+One&family=Russo+One&family=Varela+Round&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Lexend+Deca:wght@100..900&family=Mochiy+Pop+P+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Racing+Sans+One&family=Russo+One&family=Varela+Round&family=Zen+Dots&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container img {
+  width: 170px;
+  height: 250px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  font-family: "Mochiy Pop P One";
+}
+
+#animeInput {
+  width: 180px;
+  height: 32px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#searchBTN {
+  width: 70px;
+  font-family: "Archivo";
+  height: 35px;
+  border: none;
+  background-color: rgb(197, 220, 249);
+  border-radius: 4px;
+  margin-left: 7px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#animeTitle {
+  text-align: center;
+  font-family: Lexend Deca;
+  margin-top: 5px;
+}
+
+/* CONTAINER 2 */
+
+#container2 {
+  display: flex;
+  align-items: center;
+}
+
+#year {
+  background-color: rgb(168, 229, 191);
+  width: 33px;
+  padding: 7px;
+  border-radius: 4px;
+  font-family: Archivo;
+  font-weight: bold;
+  padding-right: 11px;
+  margin-right: 10px;
+}
+
+#rating {
+  width: 180px auto;
+  background-color: rgb(249, 197, 197);
+  padding: 7px;
+  font-family: Archivo;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#episodes {
+  background-color: rgb(254, 199, 255);
+  width: 33px;
+  padding: 7px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Archivo;
+  font-weight: bold;
+}
+
+#score {
+  background-color: rgb(250, 246, 206);
+  width: 52px;
+  padding: 7px;
+  font-family: Archivo;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+/* SYNOPSIS */
+
+#synopsisContainer {
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  padding: 10px;
+  width: 340px;
+  border: 2px solid black;
+  font-family: Archivo;
+}
+
+/* SOCIALS */
+#socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  gap: 8px;
+}
+
+#socials img {
+  width: 25px;
+  cursor: pointer;
+  transition: scale ease 0.1s;
+}
+
+#socials img:hover {
+  scale: 1.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+#socials p {
+  margin-top: 5px;
+  font-weight: 480;
+  font-family: "Kanit";
+}
